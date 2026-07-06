@@ -70,7 +70,7 @@ Once our driver is installed, one should be able to view it in the registry in t
 ```Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Minifilter-Driver```
 
 # Building it Yourself
-I really don't recommend attemtping to build this, but thats only due to the fact that one would need to install Visual Studio along with that VS's WDK (Windows Driver Kit). This can take up a lot of storage and is a good amount of work for just a simple driver.
+I really don't recommend attempting to build this, but thats only due to the fact that one would need to install Visual Studio along with that VS's WDK (Windows Driver Kit). This can take up a lot of storage and is a good amount of work for just a simple driver.
 
 # TODO
 - Add support for other IRP types
