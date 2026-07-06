@@ -1,0 +1,85 @@
+;
+; Minifilter-Driver.inf
+;
+
+[Version]
+Signature="$WINDOWS NT$"
+Class="ActivityMonitor"
+ClassGuid={b86dff51-a31e-4bac-b3cf-e8cfe75c9fc2}
+Provider=%ProviderName%
+DriverVer = 07/05/2026,22.34.14.930
+CatalogFile=Minifilter-Driver.cat
+PnpLockdown=1
+
+[DestinationDirs]
+DefaultDestDir = 13
+
+[SourceDisksNames]
+1 = %DiskName%,,,""
+
+[SourceDisksFiles]
+Minifilter-Driver.sys = 1,,
+
+;;
+;; Default install sections
+;;
+[DefaultInstall.NTamd64]
+OptionDesc          = %ServiceDescription%
+CopyFiles           = Minifilter-Driver.DriverFiles
+
+[DefaultInstall.NTamd64.Services]
+AddService          = %ServiceName%,0x00000800,Minifilter-Driver.Service ; 0x800 = SPSVCINST_STARTSERVICE
+
+;;
+;; Default uninstall sections
+;;
+[DefaultUninstall.NTamd64]
+LegacyUninstall = 1
+
+[DefaultUninstall.NTamd64.Services]
+DelService          = %ServiceName%,0x200               ; 0x200 = Ensure service is stopped before deleting
+
+;;
+;; Services definitions
+;;
+[Minifilter-Driver.Service]
+DisplayName      = %ServiceName%
+Description      = %ServiceDescription%
+ServiceType      = 2                                    ; SERVICE_FILE_SYSTEM_DRIVER
+StartType        = 3                                    ; SERVICE_DEMAND_START
+ErrorControl     = 1                                    ; SERVICE_ERROR_NORMAL
+LoadOrderGroup   = "FSFilter Activity Monitor"          ; Must match your class registry
+Dependencies     = "FltMgr"                             ; Minifilters require Filter Manager
+ServiceBinary    = %13%\Minifilter-Driver.sys                ; Path pointing to the Driver Store copy
+AddReg           = Minifilter-Driver.AddRegistry
+
+;;
+;; Registry modifications
+;;
+[Minifilter-Driver.AddRegistry]
+HKR,,"SupportedFeatures",0x00010001,0x3
+HKR,"Instances","DefaultInstance",0x00000000,%DefaultInstance%
+HKR,"\Instances\"%DefaultInstance%,"Altitude",0x00000000,%MiniFilterAltitude%
+HKR,"\Instances\"%DefaultInstance%,"Flags",0x00010001,0x0
+
+;;
+;; Copy Files
+;;
+
+[Minifilter-Driver.DriverFiles]
+Minifilter-Driver.sys
+
+;;
+;; String Definitions
+;;
+[Strings]
+ManufacturerName="PatrickSacchet" 
+DiskName="Minifilter-Driver Source Disk"
+ServiceName        = "Minifilter-Driver"
+ServiceDescription = "Minfilter-Driver service description"
+DiskId1            = "Minifilter Installation Disk"
+ProviderName = "PatrickSacchet"
+DefaultInstance = "Minifilter driver instance default"
+; IMPORTANT: Request a unique altitude from Microsoft for production deployment.
+; 360000-389999 is the designated range for Activity Monitors.
+MiniFilterAltitude             = "370030"

@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Patrick Sacchet\\Projects\\Personal\\Minifilter-Driver\\Minifilter-Driver\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA9E365-16C2-1013-D870-62B9113D3B03}|Minifilter-Driver.vcxproj|C:\\Users\\Patrick Sacchet\\Projects\\Personal\\Minifilter-Driver\\Minifilter-Driver\\Minfilter-Driver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DBA9E365-16C2-1013-D870-62B9113D3B03}|Minifilter-Driver.vcxproj|solutionrelative:Minfilter-Driver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA9E365-16C2-1013-D870-62B9113D3B03}|Minifilter-Driver.vcxproj|C:\\Users\\Patrick Sacchet\\Projects\\Personal\\Minifilter-Driver\\Minifilter-Driver\\Minifilter-Driver.inf||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{DBA9E365-16C2-1013-D870-62B9113D3B03}|Minifilter-Driver.vcxproj|solutionrelative:Minifilter-Driver.inf||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA9E365-16C2-1013-D870-62B9113D3B03}|Minifilter-Driver.vcxproj|C:\\Users\\Patrick Sacchet\\Projects\\Personal\\Minifilter-Driver\\Minifilter-Driver\\IRP_CREATE.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DBA9E365-16C2-1013-D870-62B9113D3B03}|Minifilter-Driver.vcxproj|solutionrelative:IRP_CREATE.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA9E365-16C2-1013-D870-62B9113D3B03}|Minifilter-Driver.vcxproj|C:\\Users\\Patrick Sacchet\\Projects\\Personal\\Minifilter-Driver\\Minifilter-Driver\\Minifilter-Driver.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DBA9E365-16C2-1013-D870-62B9113D3B03}|Minifilter-Driver.vcxproj|solutionrelative:Minifilter-Driver.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA9E365-16C2-1013-D870-62B9113D3B03}|Minifilter-Driver.vcxproj|C:\\Users\\Patrick Sacchet\\Projects\\Personal\\Minifilter-Driver\\Minifilter-Driver\\IRP_CREATE.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DBA9E365-16C2-1013-D870-62B9113D3B03}|Minifilter-Driver.vcxproj|solutionrelative:IRP_CREATE.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Minifilter-Driver.inf",
+              "DocumentMoniker": "C:\\Users\\Patrick Sacchet\\Projects\\Personal\\Minifilter-Driver\\Minifilter-Driver\\Minifilter-Driver.inf",
+              "RelativeDocumentMoniker": "Minifilter-Driver.inf",
+              "ToolTip": "C:\\Users\\Patrick Sacchet\\Projects\\Personal\\Minifilter-Driver\\Minifilter-Driver\\Minifilter-Driver.inf",
+              "RelativeToolTip": "Minifilter-Driver.inf",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAB0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002933|",
+              "WhenOpened": "2026-07-06T00:57:46.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Minfilter-Driver.cpp",
+              "DocumentMoniker": "C:\\Users\\Patrick Sacchet\\Projects\\Personal\\Minifilter-Driver\\Minifilter-Driver\\Minfilter-Driver.cpp",
+              "RelativeDocumentMoniker": "Minfilter-Driver.cpp",
+              "ToolTip": "C:\\Users\\Patrick Sacchet\\Projects\\Personal\\Minifilter-Driver\\Minifilter-Driver\\Minfilter-Driver.cpp",
+              "RelativeToolTip": "Minfilter-Driver.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAD0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-07-06T00:58:22.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Minifilter-Driver.h",
+              "DocumentMoniker": "C:\\Users\\Patrick Sacchet\\Projects\\Personal\\Minifilter-Driver\\Minifilter-Driver\\Minifilter-Driver.h",
+              "RelativeDocumentMoniker": "Minifilter-Driver.h",
+              "ToolTip": "C:\\Users\\Patrick Sacchet\\Projects\\Personal\\Minifilter-Driver\\Minifilter-Driver\\Minifilter-Driver.h",
+              "RelativeToolTip": "Minifilter-Driver.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-07-06T00:58:51.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IRP_CREATE.cpp",
+              "DocumentMoniker": "C:\\Users\\Patrick Sacchet\\Projects\\Personal\\Minifilter-Driver\\Minifilter-Driver\\IRP_CREATE.cpp",
+              "RelativeDocumentMoniker": "IRP_CREATE.cpp",
+              "ToolTip": "C:\\Users\\Patrick Sacchet\\Projects\\Personal\\Minifilter-Driver\\Minifilter-Driver\\IRP_CREATE.cpp",
+              "RelativeToolTip": "IRP_CREATE.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-07-06T00:59:11.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IRP_CREATE.h",
+              "DocumentMoniker": "C:\\Users\\Patrick Sacchet\\Projects\\Personal\\Minifilter-Driver\\Minifilter-Driver\\IRP_CREATE.h",
+              "RelativeDocumentMoniker": "IRP_CREATE.h",
+              "ToolTip": "C:\\Users\\Patrick Sacchet\\Projects\\Personal\\Minifilter-Driver\\Minifilter-Driver\\IRP_CREATE.h",
+              "RelativeToolTip": "IRP_CREATE.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-07-06T00:59:27.89Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
