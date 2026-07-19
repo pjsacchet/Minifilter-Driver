@@ -1,6 +1,9 @@
 #pragma once
 #include <fltKernel.h>
 
+// Global to store received executable string from usermode
+extern LPWSTR g_executable;
+
 FLT_PREOP_CALLBACK_STATUS PreCreateCallback(
     _Inout_                        PFLT_CALLBACK_DATA    Data,
     _In_                           PCFLT_RELATED_OBJECTS FltObjects,

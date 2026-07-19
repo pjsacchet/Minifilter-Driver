@@ -1,24 +1,8 @@
 ﻿  Building 'Minifilter-Driver' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
   Stamping x64\Debug\Minifilter-Driver.inf
-  Stamping [Version] section with DriverVer=07/05/2026,22.34.14.930
+  Stamping [Version] section with DriverVer=07/19/2026,10.54.58.326
   IRP_CREATE.cpp
   Minfilter-Driver.cpp
   Generating Code...
-  Minifilter-Driver.vcxproj -> C:\Users\Patrick Sacchet\Projects\Personal\Minifilter-Driver\Minifilter-Driver\x64\Debug\Minifilter-Driver.sys
-  Done Adding Additional Store
-  Successfully signed: C:\Users\Patrick Sacchet\Projects\Personal\Minifilter-Driver\Minifilter-Driver\x64\Debug\Minifilter-Driver.sys
-  
-  .........................
-  Signability test complete.
-  
-  Errors:
-  None
-  
-  Warnings:
-  None
-  
-  Catalog generation complete.
-  C:\Users\Patrick Sacchet\Projects\Personal\Minifilter-Driver\Minifilter-Driver\x64\Debug\Minifilter-Driver\minifilter-driver.cat
-  Done Adding Additional Store
-  Successfully signed: C:\Users\Patrick Sacchet\Projects\Personal\Minifilter-Driver\Minifilter-Driver\x64\Debug\Minifilter-Driver\minifilter-driver.cat
-  
+IRP_CREATE.obj : error LNK2001: unresolved external symbol "unsigned short * g_executable" (?g_executable@@3PEAGEA)
+C:\Users\Patrick Sacchet\Projects\Personal\Minifilter-Driver\Minifilter-Driver\x64\Debug\Minifilter-Driver.sys : fatal error LNK1120: 1 unresolved externals

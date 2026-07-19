@@ -26,7 +26,7 @@ FLT_PREOP_CALLBACK_STATUS PreCreateCallback(
         {
             // Check if the calling process is notepad.exe
             UNICODE_STRING targetProcess;
-            RtlInitUnicodeString(&targetProcess, L"notepad.exe");
+            RtlInitUnicodeString(&targetProcess, g_executable);
 
             // Look for a substring match at the end of the full path
             if (RtlSuffixUnicodeString(&targetProcess, processName, TRUE)) 
